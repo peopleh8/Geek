@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/facebook.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css?_v=20221009161820">
+  <title>Main Page</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="banner">
+    <div class="container">
+      <div class="banner__inner">
+        <div class="banner__icons">
+          <img src="./img/banner-1.png" alt="">
+          <img src="./img/banner-2.png" alt="">
+        </div>
+        <div class="banner__text">Брендовий верхній одяг від 899 грн</div>
+      </div>
+    </div>
+  </div>
+  <div class="header__top header-top">
+    <div class="container">
+      <div class="header-top__inner">
+        <div class="logo logo--header">
+          <a class="logo__link" href="#">
+            <img src="./img/logo.svg" alt="">
+          </a>
+        </div>
+        <form class="header-top__search header-search">
+          <button class="header-search__btn icon" type="submit">
+            <svg><use href="./img/icons/sprite.svg#search"></use></svg>
+          </button>
+          <input 
+            class="header-search__field" 
+            type="text" 
+            name="search" 
+            placeholder="Знайти речі або бренди"
+            autocomplete="off"
+          >
+        </form>
+        <button class="header-top__btn header-btn btn">Додати товар</button>
+        <div class="header-top__switcher header-switcher">
+          <div class="header-switcher__current">
+            <span class="header-switcher__current-text">Укр</span>
+            <span class="header-switcher__current-icon icon">
+              <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+            </span>
+          </div>
+        </div>
+        <div class="header-top__controls header-controls">
+          <div class="header-controls__item">
+            <a class="header-controls__link" href="#">
+              <span class="header-controls__icon icon">
+                <svg><use href="./img/icons/sprite.svg#heart"></use></svg>
+              </span>
+              <span class="header-controls__count">8</span>
+            </a>
+          </div>
+          <div class="header-controls__item header-controls__item--red">
+            <a class="header-controls__link" href="#">
+              <span class="header-controls__icon icon">
+                <svg><use href="./img/icons/sprite.svg#message"></use></svg>
+              </span>
+              <span class="header-controls__count">3</span>
+            </a>
+          </div>
+          <div class="header-controls__item">
+            <a class="header-controls__link" href="#">
+              <span class="header-controls__icon icon">
+                <svg><use href="./img/icons/sprite.svg#cart"></use></svg>
+              </span>
+              <span class="header-controls__count">3</span>
+            </a>
+          </div>
+        </div>
+        <div class="header-top__auth header-auth">
+          <div class="header-auth__current">
+            <div class="header-auth__current-photo">
+              <img src="./img/brand-1.jpg" alt="">
+            </div>
+            <div class="header-auth__current-icon icon">
+              <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__bot header-bot">
+    <div class="container">
+      <div class="header-bot__inner">
+        <nav class="menu">
+          <ul class="menu__list menu-list">
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Головна</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Каталог</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Жінкам</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Чоловікам</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">дИТЯЧі речі</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Аукціон</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Бренди</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Акції</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Аутентифікація</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">Блог</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+    <main class="main">
+      <div class="breadcrumbs catalog-breadcrumbs">
+  <div class="container">
+    <ul class="breadcrumbs__list breadcrumbs-list">
+      <li class="breadcrumbs-list__item">
+        <a class="breadcrumbs-list__link" href="#">Головна</a>
+      </li>
+      <li class="breadcrumbs-list__item">
+        <span class="breadcrumbs-list__separator">/</span>
+      </li>
+      <li class="breadcrumbs-list__item">
+        <span class="breadcrumbs-list__current">Каталог одягу</span>
+      </li>
+    </ul>
+  </div>
+</div>
+      <section class="catalog">
+        <div class="container">
+          <h1 class="catalog__title title">Каталог одягу</h1>
+          <div class="catalog__inner">
+            <aside class="catalog__sidebar catalog-sidebar">
+              <div class="catalog-sidebar__inner">
+                <div class="catalog-sidebar__title">Фільтри</div>
+                <div class="catalog-sidebar__filter">
+                  <div class="catalog-sidebar__item">
+                    <div class="catalog-sidebar__head">
+                      <div class="catalog-sidebar__head-inner">
+                        <span class="catalog-sidebar__head-text">Категорії</span>
+                        <span class="catalog-sidebar__head-icon icon">
+                          <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="catalog-sidebar__body active">
+                      <div class="catalog-sidebar__body-inner">
+                        <div class="catalog-sidebar__body-slider" id="slider"></div>
+                        <div class="catalog-sidebar__body-inps">
+                          <div class="catalog-sidebar__body-inp-wrapper">
+                            <label class="catalog-sidebar__body-label" for="filter-price-min">Від</label>
+                            <div class="catalog-sidebar__body-inp-inner">
+                              <input class="catalog-sidebar__body-inp" id="filter-price-min" type="text" value="980">
+                            </div>
+                          </div>
+                          <div class="catalog-sidebar__body-inp-wrapper">
+                            <label class="catalog-sidebar__body-label" for="filter-price-max">До</label>
+                            <div class="catalog-sidebar__body-inp-inner">
+                              <input class="catalog-sidebar__body-inp" id="filter-price-max" type="text" value="20465">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="catalog-sidebar__item">
+                    <div class="catalog-sidebar__head">
+                      <div class="catalog-sidebar__head-inner">
+                        <span class="catalog-sidebar__head-text">Продавець</span>
+                        <span class="catalog-sidebar__head-icon icon">
+                          <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="catalog-sidebar__body">
+                      <div class="catalog-sidebar__body-inner">
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="consumer-1"
+                            id="consumer-1"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="consumer-1">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Жінкам</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(64)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="consumer-2"
+                            id="consumer-2"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="consumer-2">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Чоловікам</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(16)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="consumer-3"
+                            id="consumer-3"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="consumer-3">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Унісекс</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(24)</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="catalog-sidebar__item">
+                    <div class="catalog-sidebar__head">
+                      <div class="catalog-sidebar__head-inner">
+                        <span class="catalog-sidebar__head-text">Розмір</span>
+                        <span class="catalog-sidebar__head-icon icon">
+                          <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="catalog-sidebar__body">
+                      <div class="catalog-sidebar__body-inner">
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="size-1"
+                            id="size-1"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="size-1">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Розмір №1</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(12)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="size-2"
+                            id="size-2"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="size-2">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Розмір №2</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(20)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="size-3"
+                            id="size-3"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="size-3">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Розмір №3</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(22)</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="catalog-sidebar__item">
+                    <div class="catalog-sidebar__head">
+                      <div class="catalog-sidebar__head-inner">
+                        <span class="catalog-sidebar__head-text">Колір</span>
+                        <span class="catalog-sidebar__head-icon icon">
+                          <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="catalog-sidebar__body">
+                      <div class="catalog-sidebar__body-inner">
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="color-1"
+                            id="color-1"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="color-1">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Колір №1</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(26)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="color-2"
+                            id="color-2"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="color-2">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Колір №2</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(28)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="color-3"
+                            id="color-3"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="color-3">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Колір №3</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(30)</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="catalog-sidebar__item">
+                    <div class="catalog-sidebar__head">
+                      <div class="catalog-sidebar__head-inner">
+                        <span class="catalog-sidebar__head-text">Матеріал</span>
+                        <span class="catalog-sidebar__head-icon icon">
+                          <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="catalog-sidebar__body">
+                      <div class="catalog-sidebar__body-inner">
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="material-1"
+                            id="material-1"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="material-1">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Матеріал №1</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(28)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="material-2"
+                            id="material-2"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="material-2">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Матеріал №2</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(30)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="material-3"
+                            id="material-3"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="material-3">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Матеріал №3</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(32)</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="catalog-sidebar__item">
+                    <div class="catalog-sidebar__head">
+                      <div class="catalog-sidebar__head-inner">
+                        <span class="catalog-sidebar__head-text">Сезон</span>
+                        <span class="catalog-sidebar__head-icon icon">
+                          <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="catalog-sidebar__body">
+                      <div class="catalog-sidebar__body-inner">
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="season-1"
+                            id="season-1"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="season-1">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Сезон №1</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(30)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="season-2"
+                            id="season-2"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="season-2">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Сезон №2</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(32)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="season-3"
+                            id="season-3"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="season-3">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Сезон №3</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(34)</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="catalog-sidebar__item">
+                    <div class="catalog-sidebar__head">
+                      <div class="catalog-sidebar__head-inner">
+                        <span class="catalog-sidebar__head-text">Стиль</span>
+                        <span class="catalog-sidebar__head-icon icon">
+                          <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="catalog-sidebar__body">
+                      <div class="catalog-sidebar__body-inner">
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="style-1"
+                            id="style-1"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="style-1">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Стиль №1</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(32)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="style-2"
+                            id="style-2"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="style-2">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Стиль №2</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(34)</span>
+                          </label>
+                        </div>
+                        <div class="catalog-sidebar__body-check">
+                          <input 
+                            class="catalog-sidebar__body-check-inp" 
+                            type="checkbox"
+                            name="style-3"
+                            id="style-3"
+                          >
+                          <label class="catalog-sidebar__body-check-btn" for="style-3">
+                            <span class="catalog-sidebar__body-check-info">
+                              <span class="catalog-sidebar__body-check-icon icon">
+                                <svg><use href="./img/icons/sprite.svg#check"></use></svg>
+                              </span>
+                              <span class="catalog-sidebar__body-check-text">Стиль №3</span>
+                            </span>
+                            <span class="catalog-sidebar__body-check-count">(36)</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <div class="catalog__box">
+              <div class="catalog__dropdown catalog-dropdown dropdown">
+                <div class="dropdown__text">Сортувати за:</div>
+                <div class="dropdown__list dropdown-list">
+                  <div class="dropdown-list__current">
+                    <span class="dropdown-list__current-text">За замовчуванням</span>
+                    <span class="dropdown-list__current-icon icon">
+                      <svg><use href="./img/icons/sprite.svg#arrow-down"></use></svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__list catalog-list">
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__label">топ</div>
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-1.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">LOUIS VUITTON</div>
+                      <div class="product__title">Темно-сині джинси Louis Vuitton</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">5 499</div>
+                        <div class="product__price--new">3 799</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Херсон</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-2.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">LoveBrand</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__label">топ</div>
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-2.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">THOM BROWNE</div>
+                      <div class="product__title">Чорний піджак Thom Browne</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">11 999</div>
+                        <div class="product__price--new">8 599</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Хмельницький</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-3.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">Sell_For_Men</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-3.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">CANALI</div>
+                      <div class="product__title">Вовняний піджак Canali</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">4 999</div>
+                        <div class="product__price--new">2 599</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Хмельницький</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-3.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">Sell_For_Men</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-4.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">LOUIS VUITTON</div>
+                      <div class="product__title">Клатч Louis Vuitton Limelight</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">4 999</div>
+                        <div class="product__price--new">3 499</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Дніпро</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-1.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">Brandear</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__pos">
+                          <div class="product__material">Organic</div>
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-5.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">ELENA GHISELINI</div>
+                      <div class="product__title">Сумка з декором Elena Ghisellini</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">1 999</div>
+                        <div class="product__price--new">1 599</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Дніпро</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-1.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">Brandear</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-6.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">ACNE</div>
+                      <div class="product__title">Бомбер Acne на блискавці</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">5 999</div>
+                        <div class="product__price--new">4 199</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Херсон</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-4.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">Alexalex</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-7.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">GUCCI</div>
+                      <div class="product__title">Довга сукня Gucci</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">11 999</div>
+                        <div class="product__price--new">8 599</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Рівне</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-5.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">SellBuy</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-8.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">CHANEL</div>
+                      <div class="product__title">Помаранчевий бомбер Woolrich</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">1 999</div>
+                        <div class="product__price--new">1 599</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Кропивницький</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-6.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">Deeva_Sofia</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="catalog__item product">
+                  <div class="product__inner">
+                    <a class="product__link" href="#"></a>
+                    <div class="product__info">
+                      <div class="product__preview-wrapper">
+                        <div class="product__pos">
+                          <div class="product__like icon">
+                            <svg><use href="./img/icons/sprite.svg#product-heart"></use></svg>
+                          </div>
+                        </div>
+                        <div class="product__preview">
+                          <img src="./img/porduct-9.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="product__brand">HACHE</div>
+                      <div class="product__title">Салатове пальто Hache</div>
+                    </div>
+                    <div class="product__controls">
+                      <div class="product__price">
+                        <div class="product__price--old">5 999</div>
+                        <div class="product__price--new">4 199</div>
+                      </div>
+                      <div class="product__more">
+                        <div class="product__location">
+                          <span class="product__location-icon icon">
+                            <svg><use href="./img/icons/sprite.svg#marker"></use></svg>
+                          </span>
+                          <span class="product__location-text">Київ</span>
+                        </div>
+                        <div class="product__brander">
+                          <div class="product__brander-photo">
+                            <div class="product__brander-photo-inner">
+                              <img src="./img/brand-2.jpg" alt="">
+                            </div>
+                          </div>
+                          <div class="product__brander-name">LoveBrand</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <nav class="catalog__pagination catalog-pagination pagination">
+                <a class="pagination__btn pagination__prev" href="#">Попередня</a>
+                <ul class="pagination__list pagination-list">
+                  <li class="pagination-list__item">
+                    <a class="pagination-list__link" href="#">1</a>
+                  </li>
+                  <li class="pagination-list__item">
+                    <span class="pagination-list__current">2</span>
+                  </li>
+                  <li class="pagination-list__item">
+                    <a class="pagination-list__link" href="#">3</a>
+                  </li>
+                  <li class="pagination-list__item">
+                    <a class="pagination-list__link" href="#">4</a>
+                  </li>
+                  <li class="pagination-list__item">
+                    <a class="pagination-list__link" href="#">5</a>
+                  </li>
+                  <li class="pagination-list__item">
+                    <a class="pagination-list__link" href="#">6</a>
+                  </li>
+                  <li class="pagination-list__item">
+                    <a class="pagination-list__link" href="#">7</a>
+                  </li>
+                  <li class="pagination-list__item">
+                    <a class="pagination-list__link" href="#">8</a>
+                  </li>
+                </ul>
+                <a class="pagination__btn pagination__next" href="#">Наступна</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="footer__top footer-top">
+    <div class="container">
+      <div class="footer-top__inner">
+        <div class="footer-top__item">
+          <ul class="footer-top__list footer-list">
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Довідка для покупців</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Отримати підтримку</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Як купувати</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Як залишити корисний відгук</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Програма Захисту Покупців</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Рекомендації з безпечних покупок</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <ul class="footer-top__list footer-list">
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Довідка для продавців</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Як почати продавати</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Тарифи</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Угода користувача</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Політика конфіденційності</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Правила користування порталом</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Бонусна програма</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <ul class="footer-top__list footer-list">
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Про нас</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Довідка та FAQ</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Захист легальності контенту</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Адміністрація</a>
+            </li>
+            <li class="footer-list__item">
+              <a class="footer-list__link" href="#">Вакансії</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item">
+          <div class="footer-top__app footer-app">
+            <div class="footer-app__text">Мобільний додаток</div>
+            <a class="footer-app__link" href="#">
+              <img src="./img/google-play.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bot footer-bot">
+    <div class="container">
+      <div class="footer-bot__inner">
+        <div class="copyright">&copy; 2022 Monvalise</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="js/app.min.js?_v=20221009161820"></script>
+</body>
+</html>
